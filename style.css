@@ -1,0 +1,119 @@
+*{
+    font-family: 'Playfair Display', serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.background {
+    background: #d4e4ef;
+    background: -moz-linear-gradient(left, #d4e4ef 0%, #86aecc 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #d4e4ef), color-stop(100%, #86aecc));
+    background: -webkit-linear-gradient(left, #d4e4ef 0%, #86aecc 100%);
+    background: -o-linear-gradient(left, #d4e4ef 0%, #86aecc 100%);
+    background: -ms-linear-gradient(left, #d4e4ef 0%, #86aecc 100%);
+    background: linear-gradient(to right, #d4e4ef 0%, #86aecc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', endColorstr='#86aecc', GradientType=1 );
+
+}
+
+.conteudo{
+    background-color: aliceblue;
+    margin: 50px 0px;
+    border-radius: 10px;
+}
+
+#menu{
+    background-color: rgb(59, 101, 138);;
+    color: rgb(192, 192, 192);
+}
+#menu ul{
+  list-style: none;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu ul li{
+  margin: 10px 10px 0px 10px;
+}
+#menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: 0.3s;
+}
+#menu ul li a:hover{
+    color: rgb(186, 174, 255);
+    
+}
+
+.sobre img{
+width: 200px;
+margin: 20px 0px;
+}
+.sobre h1{
+font-size: 4rem;
+}
+.sobre h4{
+    font-size: 1rem;
+    letter-spacing: 10px;
+    margin-bottom: 40px;
+}
+.sobre p{
+    margin-top: 20px;
+padding: 10px 40px;
+}
+.sobre small{
+font-style: italic;
+font-weight: 300;
+font-size: 15px;
+margin-left: 10px;
+}
+
+.bgdiferent{
+    background-color: rgb(59, 101, 138);
+    padding: 20px;
+}
+
+.projetos{
+ box-shadow: 1px 1px 5px black;
+ height: 520px;
+}
+.projetos small{
+ font-style: italic;
+ color: rgb(189, 189, 189);
+ margin-bottom: 10px;
+}
+.projetos small a{
+ font-style: bold;
+ color: rgb(61, 61, 61);
+ margin-bottom: 10px;
+ text-decoration: none;
+}
+.tec{
+    padding: 5px;
+}
+
+.educacao img{
+    width: 200px;
+    margin: 20px 0px;
+    }
+    .educacao h1{
+    font-size: 4rem;
+    }
+    .educacao h4{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+    }
+    .educacao p{
+    
+    padding: 10px 40px;
+    }
+    .educacao small{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 15px;
+    margin-left: 10px;
+    }
